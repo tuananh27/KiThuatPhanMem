@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Admin\\Downloads\\công nghệ thông tin\\gson-2.8.9 (2).jar"
+    ],
+    "java.dependency.packagePresentation": "flat"
+}
