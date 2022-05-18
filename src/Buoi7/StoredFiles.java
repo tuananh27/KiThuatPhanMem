@@ -77,9 +77,4 @@ public class StoredFiles {
         }
         return -1;
     }
-
-    public JsonArray getAll(){
-        return this.memory;
-    }
-
 }

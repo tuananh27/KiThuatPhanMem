@@ -65,25 +65,11 @@ public class UITerminal {
             Account account =  createAccountInputs();
 
             Account.createAccount(account.getUsername(), account.getPassword(), account.getEmail());
-        }else if(this.command.equals("LI")){
-            List<Object> list = loginInputs();// Implementation
-            //accObject.login(list.get(0).toString(), ((int)list.get(1)));
         }
 
     }
 
-    private List<Object>  loginInputs(){
-        List<Object> list = new ArrayList<>();
-        System.out.println("USERNAME: ");
-        String username = scanner.nextLine();
-        System.out.println("PASSSWORD: ");
-        Integer password = scanner.nextInt();
-        list.add(username);
-        list.add(password);
-        return list;
-    }
-
-    private static Account createAccountInputs(){
+    public static Account createAccountInputs(){
         System.out.print("USERNAME: ");
         String username = scanner.nextLine();
         System.out.print("PASSWORD: ");

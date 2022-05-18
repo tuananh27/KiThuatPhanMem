@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class BootStrap {
     public static void main(String[] args) throws InterruptedException {
         Scanner scanner = new Scanner(System.in);
-        Account accObject = new Account();
-        UITerminal uiTerminal = new UITerminal(accObject);
+        Account account = new Account();
+        UITerminal uiTerminal = new UITerminal(account);
 
         System.out.println("Welcome to the Cinema Reservation System (CRS)!\n (To exit type 'exit')\n");
         while(true){
